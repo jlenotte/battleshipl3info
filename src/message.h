@@ -53,6 +53,7 @@ struct OutgoingMessage {
     Player player;
     char nickname[255];
     SuccessfullStrike strikes[15];
+    Player eliminatedPlayers[15];
 };
 
 // 0 : Message nickname | [ char nickname[255] ] | ( le pseudo du joueur )
