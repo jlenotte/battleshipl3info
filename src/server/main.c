@@ -99,9 +99,14 @@ void updateSuccessfulStrike(Strike *strike, Player *player) {
 }
 
 void computeStrike(Strike strike) {
+
     if(checkIfCoordinatesAreValid(strike.x, strike.y)) {
         for( int i = 0; i < NB_PLAYER_MAX; i++ ) {
-            checkIfStrikeSuccessful(strike, playerSlots[i]);
+            if (checkIfPlayerIsDead(playerSlots[i]) || !checkIfStrikeSuccessful(strike, playerSlots[i])) {
+                printf("Echec du tir");
+            } else {
+                printf("Tir réussi !");
+            }
         }
     } else {
         printf("le coup est hors du plateau");
@@ -112,6 +117,14 @@ void initializeSuccessfulStrikes() {
     for(int i = 0; i < NB_PLAYER_MAX; i++){
         strcpy(successfulStrikes[i].nickPlayerTo, "UNDEFINED");
     }
+}
+
+int checkIfPlayerIsDead(Player player) {
+    if(!player.boat1.isAlive && !player.boat2.isAlive) {
+        return 1;
+    }
+
+    return 0;
 }
 
 int main()
