@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/server/main.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+stdlib.h
+-
+../shared/message.h
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/shared/message.h
+../shared/constants.h
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/shared/constants.h
+
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/server/server.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+string.h
+-
+unistd.h
+-
+
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/shared/constants.h
+
+/home/lucas/Projects/_SCHOOL/battleshipl3info/src/shared/message.h
+
