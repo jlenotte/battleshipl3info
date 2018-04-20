@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/battleshipl3info.dir/src/main.c.o CMakeFiles/battleshipl3info.dir/src/server.c.o  -o battleshipl3info 
