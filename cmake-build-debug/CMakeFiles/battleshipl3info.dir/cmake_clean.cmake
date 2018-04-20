@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/battleshipl3info.dir/src/main.c.o"
-  "CMakeFiles/battleshipl3info.dir/src/server.c.o"
+  "CMakeFiles/battleshipl3info.dir/src/server/main.c.o"
+  "CMakeFiles/battleshipl3info.dir/src/server/server.c.o"
   "battleshipl3info.pdb"
   "battleshipl3info"
 )

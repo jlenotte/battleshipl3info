@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jules/WORKSPACE/C/battleshipl3info/src/main.c" "/home/jules/WORKSPACE/C/battleshipl3info/cmake-build-debug/CMakeFiles/battleshipl3info.dir/src/main.c.o"
-  "/home/jules/WORKSPACE/C/battleshipl3info/src/server.c" "/home/jules/WORKSPACE/C/battleshipl3info/cmake-build-debug/CMakeFiles/battleshipl3info.dir/src/server.c.o"
+  "/home/lucas/Projects/_SCHOOL/battleshipl3info/src/server/main.c" "/home/lucas/Projects/_SCHOOL/battleshipl3info/cmake-build-debug/CMakeFiles/battleshipl3info.dir/src/server/main.c.o"
+  "/home/lucas/Projects/_SCHOOL/battleshipl3info/src/server/server.c" "/home/lucas/Projects/_SCHOOL/battleshipl3info/cmake-build-debug/CMakeFiles/battleshipl3info.dir/src/server/server.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
