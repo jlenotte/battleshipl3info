@@ -10,6 +10,7 @@
 
 int main(int argc, char **argv)
 {
+
     int nblu = 0;
     int sockfd, sockfd2;          // descripteurs de socket
     fd_set readfds;               // ensemble des descripteurs en lecture qui seront surveilles par select
