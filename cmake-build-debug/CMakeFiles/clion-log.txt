@@ -1,0 +1,4 @@
+/home/jules/TOOLS/clion-2017.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jules/WORKSPACE/C/battleshipl3info
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jules/WORKSPACE/C/battleshipl3info/cmake-build-debug
