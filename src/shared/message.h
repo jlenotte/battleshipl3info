@@ -14,11 +14,11 @@ typedef struct SuccessfulStrike SuccessfulStrike;
 typedef struct OutgoingMessage OutgoingMessage;
 typedef struct IncomingMessage IncomingMessage;
 
-struct Boat {
+typedef struct Boat {
     int x;
     int y;
     int isAlive;
-};
+} s_boat;
 
 struct Player {
     int id;
@@ -39,25 +39,20 @@ struct SuccessfulStrike {
     Boat boat;
 };
 
-// le type message définit ce qu'il faut lire dans la struct envoyé
-
-// typeMessage | description            | [ type ] |
-
 struct OutgoingMessage {
+
+
+typedef struct OutgoingMessage {
     int typeMessage;
     char genericMessage[255];
-    Player player;
+    s_player player;
     char nickname[255];
     SuccessfulStrike strikes[15];
     Player eliminatedPlayers[15];
 };
-
-// 0 : Message nickname | [ char nickname[255] ] | ( le pseudo du joueur )
 
 struct IncomingMessage {
     int typeMessage;
     char nickname[255];
     Strike strike;
 };
-
-// 0 :         | En attente connection   | [ char genericMessage[255]; ] ( "En attente de connection n joueurs" )
